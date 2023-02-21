@@ -17,4 +17,7 @@ let block5 = $("#5pm");
 
 let saveButton = $(".saveBtn");
 
+//display time
+let date = moment().format("dddd, MMMM Do");
 
+currentDay.html(date);
