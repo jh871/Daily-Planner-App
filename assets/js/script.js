@@ -1,7 +1,11 @@
 let currentDay = $("#currentDay");
 
+let currentTime = moment().format;
+
 
 let hour = $(".hour");
+
+
 
 let timeBlock = $(".time-block");
 let textArea = $(".textarea");
@@ -19,5 +23,9 @@ let saveButton = $(".saveBtn");
 
 //display time
 let date = moment().format("dddd, MMMM Do");
-
 currentDay.html(date);
+
+
+//when user types in text area and clicks save, time is used as ls key and then text is stored in string;
+// color of block will changed based on whether it is future, present or past
+
