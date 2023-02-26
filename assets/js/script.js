@@ -152,7 +152,7 @@ btn17.on("click", () => {
 
 //change colour of timeblock by class:
 let time = parseInt(moment().format("H"));
-//this runs completely fine but also errors in the console??
+
 let countArray = [block9, block10, block11, block12, block1, block2, block3, block4, block5];
 
 countArray.forEach((element) => {
